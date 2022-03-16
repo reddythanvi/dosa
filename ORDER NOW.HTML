@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+                  background-color: indianred;
+                  color: white;
+                  font-size: 30px;
+                }
+                ul{
+                  background-color:lightpink;
+                }
+                .da{
+                  padding-left: 10px;
+                  padding-right: 10px;
+                  display: inline;
+                }
+                .links{
+                  color: black;
+                }
+                .links:hover{
+                  color: black;
+                  font-size: 40px;
+                  background-color: lightsalmon;
+                }
+    </style> 
+    <nav>
+        <ul style="list-style-type: none;">
+            <li class="da">
+                <img src="http://www.dosainc.in/images/logo.png" height="100" width="200">
+                </li>
+                <li class="da">
+                    <a class="links" href="index.html">HOME</a>
+                  </li>
+          <li class="da">
+            <a class="links" href="catering.html">CATERING</a>
+          </li>
+          <li class="da">
+            <a class="links" href="Locations.html">LOCATIONS</a>
+          </li>
+          <li class="da">
+            <a class="links" href="about us.html">ABOUT US</a>
+          </li>
+          <li class="da">
+            <a class="links" href="contact us.html">CONTACT</a>
+          </li>
+          <li class="da">
+            <a class="links" href="ORDER NOW.HTML">ORDER NOW</a>
+          </li>
+        </ul>
+    </nav> 
+    <p>ORDER NOW</p>
+    <p>Order form for our newly launched menu!</p>
+    <img src="order-now.jpg">
+     <form method="POST">
+        <label for="fname">First Name- </label>
+        <input type="text" name="fname" placeholder="first name">
+    <br/>
+    <label for="Mobile">Mobile Number: </label>
+        <input type="number" name="Mobile" placeholder="Enter your mobile no here">
+        <br/>
+        <label for="add">Address: </label>
+        <textarea name="add" rows="4" cols="10"></textarea>
+        <br/>
+        <br/>
+        <label for="add">order: </label>
+        <textarea name="add" rows="4" cols="10"></textarea>
+        <br/>
+        <label>Select payment method: </label><br/>
+        <input type="checkbox">payTM<br/>
+        <input type="checkbox">Google pay<br/>
+        <input type="checkbox">cash<br/>
+        <br/>
+        <label for="add">Feedback: </label>
+        <textarea name="add" rows="4" cols="10"></textarea>
+        <br/>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>

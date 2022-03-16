@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dosa</title>
+    <style>
+body{
+          color: lightseagreen;
+          font-size: 30px;
+        }
+        ul{
+          background-color:lightpink;
+        }
+        .da{
+          padding-left: 10px;
+          padding-right: 10px;
+          display: inline;
+        }
+        .links{
+          color: black;
+        }
+        .links:hover{
+          color: black;
+          font-size: 40px;
+          background-color: lightsalmon;
+        }
+        #div1{
+            background-image: url("dosa.jpg");
+            height: 500px;
+            width: 100%;
+            background-size: cover;
+            animation-name: idli;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+
+        }
+        @keyframes idli{
+            0%{background-image: url("dosa.jpg");}
+            25%{background-image: url("idli.jpg");}
+            50%{background-image: url("pongal.jpg");}
+            75%{background-image: url("uttapam.jpg");background-size: cover;}
+            100%{background-image: url("vada.jpg");}
+        }
+        #container{
+          height: 300px;
+          width: 70%;
+          text-align: center;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+        }
+        .deliver{
+          height: 300px;
+          width: 300px;
+        }
+      
+        #container1{
+          height: 200px;
+          width: 100%;
+          text-align: center;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+        }
+        .deliver1{
+          height: 200px;
+          width: 300px;
+        }
+      
+    </style>
+</head>
+<body>
+  <nav>
+    <ul style="list-style-type: none;">
+        <li class="da">
+            <img src="http://www.dosainc.in/images/logo.png" height="100" width="200">
+            </li>
+            <li class="da">
+                <a class="links" href="index.html">HOME</a>
+              </li>
+      <li class="da">
+        <a class="links" href="catering.html">CATERING</a>
+      </li>
+      <li class="da">
+        <a class="links" href="Locations.html">LOCATIONS</a>
+      </li>
+      <li class="da">
+        <a class="links" href="about us.html">ABOUT US</a>
+      </li>
+      <li class="da">
+        <a class="links" href="contact us.html">CONTACT</a>
+      </li>
+      <li class="da">
+        <a class="links" href="ORDER NOW.HTML">ORDER NOW</a>
+      </li>
+    </ul>
+</nav> 
+  <div id="div1">
+
+  </div>
+  <br/>
+  <center>
+  <div id="container">
+    <div class="deliver">
+      <img src="truck.jpg" height="200" width="300"/>
+    </div>
+    <div class="deliver">
+      <img src="delivery-pickup.jpg" height="200" width="300"/>
+    </div>
+    <div class="deliver">
+      <img src="buffet.jpg" height="200" width="300"/>
+    </div>
+  </div> 
+</center>
+<div id="dishes" style="text-align: center;">
+  <span style="background-color: orange;color:white;padding-left: 20px;padding-right: 20px;">Menu</span>
+  <span style="background-color: orange;color:white;padding-left: 20px;padding-right: 20px;">Special</span>
+  <span style="background-color: orange;color:white;padding-left: 20px;padding-right: 20px;">Setup</span>
+</div>
+<div id="container1" style="background-color: lightsalmon;">
+  <div class="deliver1">
+    <img src="Medhu-Vada.jpg" height="200" width="300"/>
+  </div>
+  <div class="deliver1">
+    <img src="rava-dosa.jpg" height="200" width="300"/>
+  </div>
+  <div class="deliver1">
+    <img src="dahi-wada.jpg" height="200" width="300"/>
+  </div>
+  <div class="deliver1">
+    <img src="Onion-Tomato-Uttapam.jpg" height="200" width="300"/>
+  </div>
+  <div class="deliver1">
+    <img src="vada.jpg" height="200" width="300"/>
+  </div>
+  </div>
+</body>
+</html>
